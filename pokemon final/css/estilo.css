@@ -1,0 +1,414 @@
+/* conf gerais */
+*{
+  padding: 0;
+  margin: 0 ;
+  text-decoration: none;
+  list-style-type: none;}
+  
+  header{
+    margin-bottom: 150px;
+  }
+  
+  body{
+      background:linear-gradient( to bottom, #40c6b4, #9a1d7d );
+      overflow-x: hidden;
+      background-attachment: fixed;
+  }
+
+nav.bg-dark {
+background-color: rgb(65, 146, 143) !important;
+}
+
+html, body{
+    height: 100%;
+}
+
+
+/* @font-face{
+    font-family: urban;
+    src: url(urban_jungle/UrbanJungleDEMO.woff);
+    } */
+
+    #home{
+        text-transform: capitalize;
+    }
+
+/* conf.especificas */
+  .numero{
+    color: #8e8b8b;
+  }
+  
+  h4.mr-6{
+    text-transform: capitalize;
+  }
+  
+ #cont1 .container{
+    margin-top: 150px;
+  }
+   
+  .caixa .border{
+    border: 1px solid red!important;
+  }
+
+
+.caixa{
+    text-align: start;
+    margin: 30px 10px;
+   }
+ 
+   .caixa a{
+     display: block;
+   }
+ 
+   .caixa-p{
+    margin-top: 50px;
+     transform: matrix(1,0,0,1,0,0);
+   }
+ 
+   .caixa-p:hover{
+     transform: matrix(1,0,0,1,0,-3);
+ 
+   }
+
+   .navbar-dark .navbar-nav .show>.nav-link {
+     color: rgba(255,255,255,.5); 
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+     color: rgb(97, 173, 136); 
+}
+.nav-tabs .nav-item.show .nav-link  {
+     color: rgba(255, 255, 255, 0.5); 
+     background-color: #ffffff05; 
+     border-color: #dee2e600 #dee2e6 #ffffffc7; 
+}   
+.nav-tabs .nav-link {
+  border: none;
+ padding-left: 15px;
+ 
+}
+
+.dropdown-multicol{
+  width: 30em ;
+}
+.dropdown-row .dropdown-item{
+  display:inline-block;
+  width: 32%;
+}
+
+#geracao a, #tipos a, #megas a{
+  text-decoration: none;
+  color: rgba(255,255,255,.5);
+}
+
+#geracao a:hover, #tipos a:hover, #megas a:hover{
+  text-decoration: none;
+  color: rgb(97, 173, 136);
+}
+
+  .dropdown-menu{
+    background: transparent;
+  }
+  .dropdown-item {
+    color: rgb(149, 255, 246) !important ;
+    border: 1px solid rgba(255, 255, 255, 0.324);
+    background: rgba(128, 128, 128, 0.625);
+    padding:5px 10px ;
+    margin-top: 0;
+  }
+
+  .dropdown-item:hover {
+    color: rgb(19, 20, 20) !important ;
+     background:rgb(18, 87, 92) ;
+  }
+  
+  
+   .bg-white{
+    background: url(../tipos/poke2svg.svg) no-repeat center,
+    rgba(111, 107, 107, 0.024)!important;
+   }
+
+footer p{
+  padding: 10px;
+  display: inline;
+}
+footer a{
+color: rgba(255, 255, 255, 0.862);
+}
+footer a:hover{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  }
+/* tipos */
+  
+.btn-grass{
+  background:url(../tipos/Planta.png)no-repeat;
+  width:64px;
+  height: 64px;
+  border-radius: 100%;
+  }
+  
+  .btn-poison{
+    background:url(../tipos/Veneno.png)no-repeat;
+    width:64px;
+    height: 64px;
+    border-radius: 100%;
+  }
+
+  .btn-fire{
+    background:url(../tipos/Fogo.png)no-repeat;
+    width:64px;
+    height: 64px;
+    border-radius: 100%;
+  }
+
+  .btn-water{
+    background:url(../tipos/Agua.png)no-repeat;
+  width:64px;
+  height: 64px;
+  border-radius: 100%;
+  }
+  
+  .btn-ice{
+    background:url(../tipos/Gelo.png)no-repeat;
+  width:64px;
+  height: 64px;
+  border-radius: 100%;
+  }
+
+  .btn-fighting{
+    background:url(../tipos/Lutador.png)no-repeat;
+  width:64px;
+  height: 64px;
+  border-radius: 100%;
+  }
+
+  .btn-steel{
+    background:url(../tipos/Metalico.png)no-repeat;
+  width:64px;
+  height: 64px;
+  border-radius: 100%;
+  }
+  .btn-normal{
+    background:url(../tipos/Normal.png)no-repeat;
+  width:64px;
+  height: 64px;
+  border-radius: 100%;
+  }
+
+  .btn-bug{
+    background:url(../tipos/Inseto.png)no-repeat;
+  width:64px;
+  height: 64px;
+  border-radius: 100%;
+  }
+
+  .btn-rock{
+    background:url(../tipos/Pedra.png)no-repeat;
+    width:64px;
+    height: 64px;
+    border-radius: 100%;
+  }
+
+  .btn-electric{
+    background:url(../tipos/Eletrico.png)no-repeat;
+    width:64px;
+    height: 64px;
+    border-radius: 100%;
+  }
+
+  .btn-psychic{
+    background:url(../tipos/Psiquico.png)no-repeat;
+    width:64px;
+    height: 64px;
+    border-radius: 100%;
+  }
+
+  .btn-fairy{
+    background:url(../tipos/Fada.png)no-repeat;
+    width:64px;
+    height: 64px;
+    border-radius: 100%;
+  }
+
+  .btn-ghost{
+    background:url(../tipos/Fantasma.png)no-repeat;
+    width:64px;
+    height: 64px;
+    border-radius: 100%;
+  }
+
+
+
+  .btn-ground{
+    background:url(../tipos/Terra.png)no-repeat;
+  width:64px;
+  height: 64px;
+  border-radius: 100%;
+  }
+
+  .btn-dragon{
+    background:url(../tipos/Dragao.png)no-repeat;
+    width:64px;
+    height: 64px;
+    border-radius: 100%;
+  }
+
+  .btn-flying{
+    background:url(../tipos/Voador.png)no-repeat;
+    width:64px;
+    height: 64px;
+    border-radius: 100%;
+  }
+
+  .btn-dark{
+    background:url(../tipos/Noturno.png)no-repeat;
+    width:64px;
+    height: 64px;
+    border-radius: 100%;
+  }
+
+
+
+
+  /* navegação */
+  
+  .transparent{
+      background: rgba(47, 46, 46, 0.4);
+  }
+  
+  .navbar-dark .navbar-brand{
+      font-family: urban;
+      font-size: 3em;
+      color: rgb(238, 3, 3);
+  }
+  
+  .navbar-dark .navbar-brand:hover{
+      color: rgb(234, 234, 234);
+  }
+  
+
+  .nav-tabs{
+      border-bottom: none;
+  }
+
+  .navbar-brand{ 
+    background: linear-gradient( 180deg,red 55%, white 45%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .navbar-brand:hover{ 
+    background: linear-gradient( 180deg,rgb(209, 4, 4) 55%, rgb(244, 243, 243) 45%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+   .mr-7{
+  margin-left: -15px;
+  }
+
+  .mr-6{
+    margin-left: 0;
+    }
+
+
+    header li{
+    margin: 5px;
+    border: 2px solid rgb(110, 106, 106);}
+
+  h5{
+    display: inline-block;
+    padding: 5px;
+    
+  }
+.table td{
+    border: 1px solid red;
+}
+  span{
+  font-weight: 700;
+  }
+  
+
+  .btn-next{
+    background:url(../tipos/poke3.png) ;
+     color: rgb(11, 11, 11);
+     width:100px;
+     text-align:center;
+     height: 100px;
+     border-radius: 100%;
+     border: #010101;
+     font-weight: 700;
+     font-size:2em;
+     margin-top: 120px;
+     float: right; }
+ 
+   .btn-prev{
+     background:url(../tipos/poke3.png);
+     color: rgb(11, 11, 11);
+     width:100px;
+     text-align:center;
+     height: 100px;
+     border-radius: 100%;
+     border: #000000;
+     font-weight: 700;
+     font-size:2em;
+     margin-top: 120px;
+     float: left;
+   }
+   
+ 
+   .btn-prev:hover{
+     background:url(../tipos/poke3.png);
+     color: rgb(142, 7, 7);
+   }
+ 
+   .btn-next:hover{
+     
+     background:
+     url(../tipos/poke3.png);
+     color: rgb(142, 7, 7);
+     
+   }
+  
+  /* conteudo */
+  
+  
+/* // Dispositivos small (telefones em modo paisagem, com 576px ou mais) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  
+  
+  
+}
+
+/* // Dispositivos médios (tablets com 768px ou mais) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+ 
+
+
+}
+
+/* // Dispositivos large (desktops com 992px ou mais) */
+@media (min-width: 992px) and (max-width: 1199.98px) {  
+  .dropdown-multicol{
+    width:32em ;
+  }
+  
+  .dropdown-row .dropdown-item{
+    display: inline-block;
+    width: 33%;
+  }
+  
+}
+
+
+
+/* // Dispositivos extra large (desktops grandes com 1200px ou mais) */
+@media (min-width: 1200px) { 
+  .dropdown-multicol{
+    width:30em ;
+  }
+  
+  .dropdown-row .dropdown-item{
+    display: inline-block;
+    width: 33%;
+  }
+  
+ }
